@@ -173,4 +173,5 @@ if __name__ == "__test__":  # TESTES
 
         print()
 
-    print(f'O seek time do CSCAN é em média {round(((sum(seek_time[1])/sum(seek_time[0])) * 100), 3)}% do seek time do SCAN.')
+    print("Considerando um seek time constante para cada bloco visitado, ")
+    print(f'o seek time do CSCAN é em média {round(((sum(seek_time[1])/sum(seek_time[0])) * 100), 3)}% do seek time do SCAN.')
